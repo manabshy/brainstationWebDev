@@ -1,21 +1,89 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="mystyle.css">
-  <script src="myscript.js"></script>  
-  <title>My FIRST WEBPAGE</title>
-</head>
-<body>
-  <h1>HELLO World</h1>
-  
-  <div>
-    <span><button id="btn" onclick="myFunction()" class='btn'>MY BUTTON</button></span>
-  </div>
-  <div>
-    <img src="HTML5.png" alt="HTML5" >    
-  </div>
-  
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="mystyle.css" />
+    <script src="myscript.js"></script>
+
+    <title>My FIRST WEBPAGE</title>
+  </head>
+  <body>
+    <h1>HELLO World</h1>
+
+    <!-- // Box structure  -->
+    <!-- Container -->
+    <div id="box-header">
+      <!-- first element -->
+      <img src="HTML5.png" alt="HTML5" />
+      <!-- second element -->
+      <h2>User Information</h2>
+      <!-- third element -->
+      <p>Learn more about....</p>
+      <!-- fourth element -->
+      <!-- inline block -->
+      <span>
+        <button id="btn" onclick="myFunction()" class="btn">MY BUTTON</button>
+      </span>
+      <!-- fifth element -->
+      <div>
+        <a href="http://bbc.co.uk" target="_blank">Click Here</a>
+      </div>
+    </div>
+
+    <br>
+    <br>
+    <!-- Grocery List -->
+    <div id="groceryList">
+      <h1>My Grocery List</h1>
+      <ul class="glist">
+        <li>
+          <span>Apples</span>
+          <span>1</span>
+        </li>
+
+        <li>
+          <span>Oranges</span>
+          <span>2</span>
+        </li>
+
+        <li>
+          <span>Eggs</span>
+          <span>3</span>
+        </li>
+
+        <li>
+          <span>Bread</span>
+          <span>1/2 Loaf</span>
+        </li>
+      </ul>
+    </div>
+
+
+    <div id="personalList">
+      <h1>My Personal List</h1>
+      <ol class="plist">
+        <li>
+          <span>Apples</span>
+          <span>1</span>
+        </li>
+
+        <li>
+          <span>Oranges</span>
+          <span>2</span>
+        </li>
+
+        <li>
+          <span>Eggs</span>
+          <span>3</span>
+        </li>
+
+        <li>
+          <span>Bread</span>
+          <span>1/2 Loaf</span>
+        </li>
+      </ol>
+    </div>
+
+  </body>
 </html>

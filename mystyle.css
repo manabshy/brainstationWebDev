@@ -1,0 +1,38 @@
+div#box-header {
+    background-color: blueviolet;
+    width: 50%;
+}
+
+button#btn {
+    background-color: greenyellow;
+    color: black;
+}
+
+div#groceryList {
+    background-color: chocolate;
+    width: 50%;
+}
+
+div#personalList {
+    background-color: gray;
+    width: 50%;
+}
+a {
+    color: aqua;
+}
+
+
+ul.glist{
+    background-color: crimson;
+    font-size: 50px;
+    color: aliceblue;
+}
+
+
+ol.plist{
+    background-color: cadetblue;
+    font-size: 25px;
+    color: black;
+}
+
+
